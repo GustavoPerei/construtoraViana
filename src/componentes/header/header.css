@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: ghostwhite;
+    height: 300px;
+    border: 15%;
+    border-color: black;
+}
+
+.header h3{
+    padding: 20px;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+
+.cabecalho {
+   width: 100%;
+    position: relative;
+    border-color: black;
+    border: 15%;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 100px;
+    float: left;
+    margin-right: 50px;
+}
+
+.relogio {
+    position: absolute;
+    top: 50px;
+    left: 20%;
+}
+
+.informacoes {
+   position: absolute;
+   top: 23px;
+   left: 22%;
+}
+
+.local {
+    position: absolute;
+    top: 8px;
+    left: 105%;
+}
+
+.endereco {
+   position: absolute;
+   top: 4px;
+   left: 120%;
+}
+
+.endereco2 {
+    position: relative;
+    top: -40px;
+    left: 120%;
+}
+
+.telefone {
+    position: absolute;
+    top: 5px;
+    left: 280%;
+}
+
+.contato {
+    position: relative;
+    top: -140px;
+    left: 310%;
+}
+
+.contato2 {
+    position: absolute;
+    top: 15px;
+    left: 300%;
+}
+
+.lista {
+    position: relative;
+    top: 200px;
+}
+
+nav ul li{
+    list-style-type: none;
+    float: left;
+    padding: 40px;
+}
+
+nav ul{
+    display: inline;
+    padding: 10px;
+}
+
+.lista a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+

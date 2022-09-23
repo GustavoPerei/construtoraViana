@@ -1,0 +1,28 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.separator {
+    width: 100%;
+}
+
+.controls-warapper {
+    width: 100%;
+}
+
+.rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 0px violet;
+}
+
